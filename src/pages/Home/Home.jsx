@@ -1,6 +1,6 @@
-import { Nav } from "../../components/Nav/Nav"
+import  Nav  from "../../components/Nav/Nav"
 import Footer from "../../components/Footer/Footer"
-export default function Home(){
+function Home(){
     return(
         <div className="Home">
             <Nav />
@@ -59,3 +59,5 @@ export default function Home(){
         </div>
     )
 }
+
+export default Home;

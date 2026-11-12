@@ -1,4 +1,4 @@
-export default function Nav(){
+function Nav(){
     return (
         <nav>
 
@@ -25,3 +25,5 @@ export default function Nav(){
         </nav>
     )
 }
+
+export default Nav;
