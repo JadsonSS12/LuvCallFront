@@ -1,0 +1,67 @@
+/* Footer.css */
+
+.footer {
+    background-color: #1e1e2f; /* Cor de fundo combinando com a navbar */
+    color: #ffffff;
+    padding: 2.5rem 2rem 1.5rem 2rem;
+}
+
+/* Organiza o conteúdo principal do footer lado a lado (Esquerda vs Direita) */
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Empurra o about para a esquerda e os links para a direita */
+    align-items: flex-start;        /* Alinha ambos ao topo */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Linha divisória subtil */
+}
+
+/* Bloco da Esquerda (Sobre) */
+.footer-about {
+    max-width: 300px;
+}
+
+.footer-about h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-about p {
+    color: #b0b0c0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Bloco da Direita (Links Úteis em Coluna) */
+.footer-links {
+    display: flex;
+    flex-direction: column; /* Transforma os links numa coluna vertical */
+    align-items: flex-end;  /* Alinha o título e os links à direita */
+}
+
+.footer-links h3 {
+    font-size: 1.1rem;
+}
+
+.footer-links a {
+    color: #b0b0c0;
+    text-decoration: none;
+    margin-bottom: 0.5rem;   /* Espaçamento vertical entre os links */
+    transition: color 0.3s;
+    font-size: 0.6rem;
+    padding-top: 0rem;
+
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+/* Rodapé inferior (direitos reservados) */
+.footer-bottom {
+    text-align: center;
+    padding-top: 1.5rem;
+    color: #808090;
+    font-size: 0.85rem;
+}

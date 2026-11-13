@@ -9,7 +9,7 @@ function Home(){
             <main className="home-content">
 
                 <section className="hero">
-                    <h1>Bem-vindo à MinhaApp!</h1>
+                    <h1>Bem-vindo ao Luvcall!</h1>
 
                     <p>
                         Uma plataforma desenvolvida para
