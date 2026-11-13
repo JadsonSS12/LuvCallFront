@@ -1,0 +1,59 @@
+/* Nav.css */
+
+/* Estiliza a barra de navegação principal (Muda a cor de fundo e posiciona lado a lado) */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espaça o logo, os links e o botão nas extremidades */
+    align-items: center;            /* Alinha os itens verticalmente ao centro */
+    background-color: #1e1e2f;      /* Altere aqui para a cor de fundo desejada */
+    padding: 1rem 2rem;             /* Espaçamento interno */
+    color: #ffffff; 
+    font-family: 'Birthstone', sans-serif;
+    font-size: 2rem;
+}
+
+/* Estiliza o logotipo */
+.nav-logo h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-family: 'Birthstone', sans-serif;
+    font-size: 4rem;
+}
+
+/* Organiza a lista de links para ficarem lado a lado */
+.navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;                      /* Espaço entre um link e outro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza os links */
+.navbar-links a {
+    text-decoration: none;
+    color: #cfcfcf;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #ffffff;                 /* Cor do link ao passar o rato/mouse */
+}
+
+/* Estiliza a área das ações (botão de entrar) */
+.navbar-actions .login-button {
+    background-color: #6366f1;      /* Cor de fundo do botão */
+    color: #ffffff;                 /* Cor do texto do botão */
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navbar-actions .login-button:hover {
+    background-color: #4f46e5;      /* Cor do botão ao passar o mouse */
+}

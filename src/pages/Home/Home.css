@@ -1,0 +1,8 @@
+.home-content{
+                /* Faz o conteúdo expandir-se e empurrar o footer para o fundo se necessário */
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centraliza horizontalmente os blocos (hero e features) */
+    text-align: center;     /* Centraliza os textos */
+    padding: 2rem;          /* Espaçamento interno para não colar nas bordas */
+}

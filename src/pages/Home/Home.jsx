@@ -1,5 +1,6 @@
 import  Nav  from "../../components/Nav/Nav"
 import Footer from "../../components/Footer/Footer"
+import './Home.css'
 function Home(){
     return(
         <div className="Home">
