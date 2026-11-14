@@ -4,7 +4,6 @@ import './Home.css'
 function Home(){
     return(
         <div className="Home">
-            <Nav />
 
             <main className="home-content">
 
@@ -55,7 +54,6 @@ function Home(){
 
             </main>
 
-            <Footer />
 
         </div>
     )

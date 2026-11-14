@@ -1,8 +1,63 @@
-.home-content{
-                /* Faz o conteúdo expandir-se e empurrar o footer para o fundo se necessário */
+/* Home.css */
+
+.Home {
+    /* Remove a altura fixa de 1080px se estiver a causar sobras verticais indesejadas, 
+       e use min-height para garantir que cobre pelo menos a tela toda */
+    min-height: 100vh;
+    width: 100%;
+    
+    /* Configurações essenciais para a imagem de fundo */
+    background-image: url('../../assets/HomePage.jpg');
+    background-size: cover;          /* Cobre todo o espaço proporcionalmente */
+    background-position: center;     /* Centraliza a imagem */
+    background-repeat: no-repeat;    /* Evita repetição em mosaico */
+    
+    /* Organização do conteúdo interno */
     display: flex;
     flex-direction: column;
-    align-items: center;    /* Centraliza horizontalmente os blocos (hero e features) */
-    text-align: center;     /* Centraliza os textos */
-    padding: 2rem;          /* Espaçamento interno para não colar nas bordas */
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px; /* Limita a largura interna para os textos não ficarem esticados demais */
+}
+
+.hero {
+    margin-bottom: 3rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.features-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

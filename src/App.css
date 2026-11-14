@@ -1,14 +1,12 @@
+/* App.css */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+html, body {
     width: 100%;
     min-height: 100vh;
-    font-family: "Playwrite FR Trad", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    background-color: #000; /* Cor de fundo opcional para caso a imagem demore a carregar */
 }
